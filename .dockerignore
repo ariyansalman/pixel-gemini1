@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.log
+chrome_profiles/
+.debug/
+debug_*.png
+config_original.py
+main_original.py
+google_automation_original.py
+.git/
+.gitignore
+README.md

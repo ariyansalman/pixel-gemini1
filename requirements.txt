@@ -1,0 +1,19 @@
+# Telegram bot framework. Do not add the unrelated `telegram` distribution.
+python-telegram-bot==21.10
+
+# Browser automation
+selenium==4.21.0
+
+# TOTP generation for Google 2FA
+pyotp==2.9.0
+
+# HTTP requests for device registration API
+requests==2.32.3
+
+# Optional Android-device automation module used by emulator_automation.py.
+# It is retained for feature compatibility; Railway does not provide an Android device.
+uiautomator2==3.2.8
+
+# Selenium uses the system Chromium and chromedriver installed by Dockerfile.
+# webdriver-manager and undetected-chromedriver were unused and removed to avoid
+# driver-download and Selenium-version conflicts on Railway.
